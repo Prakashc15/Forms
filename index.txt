@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blood Bank</title>
+</head>
+<body style="background-color:red;">
+<center>
+<h1>Donate Your Blood</h1>
+<br>
+<br>
+<br>
+<br>
+<label for="Firstname"><b>First Name</b></label>
+<input type="text" placeholder="enter your first name" id="Firstname"><br>
+<br>
+<label for="Lastname"><b>Last Name</b></label>
+<input type="text" placeholder="enter your last name" id="Lastname"><br>
+<br>
+<label for="mail"><b>Email</b></label>
+<input type="text" placeholder="enter your mail id" id="mail"><br>
+<br>
+<label for="male"><b>Male</b></label>
+<input type="radio" id="male" name="gender">
+<label for="female"><b>Female</b></label>
+<input type="radio" id="female" name="gender"><br>
+<br>
+<label for="dob"><b>DOB</b></label>
+<input type="date" id="dob" name="dob"><br>
+<br>
+<select>
+<option value="">Blood Group</label>
+<option value="">A+</label>
+<option value="">A-</label>
+<option value="">B+</label>
+<option value="">B-</label>
+<option value="">AB+</label>
+<option value="">AB-</label>
+<option value="">O+</label>
+<option value="">O-</label>
+</select><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="color:black;"><b>Once a blood donor, always a lifesaver.Want to watch a miracle? Go and donate blood.</b></p>
+<button type="button"onclick="alert('Succesfully register')">Register</button>
+
+</center>
+</body>
+</html>
+
+
+<!-- A+, A-, B+, B-, AB+, AB-, O+, and O-. -->
